@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   background-color: #eee;
   margin: 0;
   padding: 0;
@@ -33,12 +34,15 @@ ul {
   height: 100vh;
 }
 
-.title, .controls, .button {
+.title,
+.controls,
+.button {
   flex: none;
 }
 
 .button {
   padding: 10px 20px;
+  display: inline-block;
 }
 
 .todo-list {
